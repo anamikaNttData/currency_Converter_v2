@@ -1,0 +1,33 @@
+.header {
+  height: 70px;
+  background: #161616;
+  width: 100%;
+  margin-bottom: 2px;
+}
+
+.inner {
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  padding: 0px 10px;
+  background: #222222;
+  border-radius: 6px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Source Code Pro", monospace;
+  transition: 0.4s;
+  color: #fff;
+}
+
+@media (max-width: 464px) {
+  .logo {
+    padding: 0px 4px;
+    font-size: 10px;
+  }
+}
